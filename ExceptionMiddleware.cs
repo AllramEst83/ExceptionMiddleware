@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace BestSolution.Middleware
 {
+    //How to catch all generic Exceptions with a middleware.
+
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate _next;
